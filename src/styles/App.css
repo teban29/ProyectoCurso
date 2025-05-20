@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url("./Reset.css");
 
 .app-container {
   display: flex;
@@ -10,6 +6,6 @@
 }
 
 .main-content {
-  padding-top: 120px;
+  padding-top: 110px;
   width: 100%;
 }

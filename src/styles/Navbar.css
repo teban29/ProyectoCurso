@@ -1,11 +1,4 @@
-@import url("./Fonts.css");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Figtree", sans-serif;
-}
+@import url("./Reset.css");
 
 .header {
   background-color: #f0f0f0;

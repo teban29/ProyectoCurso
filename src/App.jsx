@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./styles/App.css";
 import { Navbar } from "./components/Navbar.jsx";
-import { Card } from "./components/Card.jsx";
+import { Slider } from "./components/Slider.jsx";
 
 function App() {
   return (
     <div className="app-container">
       <Navbar />
       <main className="main-content">
-        <Card />
+        <Slider />
       </main>
     </div>
   );
