@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Slider.css";
+import slider1 from "../assets/img/slider1.jpg";
+import slider2 from "../assets/img/slider2.jpg";
+import slider3 from "../assets/img/slider3.jpg";
 
 const images = [
   {
-    src: "src/assets/img/slider1.jpg",
+    src: slider1,
     alt: "Slider 1",
     caption: "Soluciones rápidas y confiables para transporte terrestre",
   },
   {
-    src: "src/assets/img/slider2.jpg",
+    src: slider2,
     alt: "Slider 2",
     caption: "Entregas internacionales con transporte aéreo eficiente",
   },
   {
-    src: "src/assets/img/slider3.jpg",
+    src: slider3,
     alt: "Slider 3",
     caption: "Transporte marítimo para cargas grandes y voluminosas",
   },
