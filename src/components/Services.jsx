@@ -29,10 +29,10 @@ const services = [
 
 export const Services = () => {
   return (
-    <section className="services">
+    <section id="services" className="services">
       <h2 className="services-title">Nuestros Servicios</h2>
       <p className="services-subtitle">
-        Brindamos soluciones logisitcas y de transporte de mercancia de manera
+        Brindamos soluciones logisticas y de transporte de mercancia de manera
         eficiente para tu empresa.
       </p>
       <div className="services-grid">

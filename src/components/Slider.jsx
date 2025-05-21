@@ -39,12 +39,17 @@ export const Slider = () => {
 
   return (
     <div className="slider">
-      <div className="slider-content">
-        <img
-          src={images[currentIndex].src}
-          alt={images[currentIndex].alt}
-          className="slider-image"
-        />
+      <div
+        className="slider-content"
+        style={{ "--current-index": currentIndex }}>
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image.src}
+            alt={image.alt}
+            className={`slider-image ${currentIndex === index ? "" : "hidden"}`}
+          />
+        ))}
       </div>
       <div className="slider-dots">
         {images.map((_, index) => (

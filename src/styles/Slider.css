@@ -14,12 +14,20 @@
   justify-content: center;
   height: 100%;
   position: relative;
+  transition: transform 1s ease-in-out;
 }
 
 .slider-image {
   width: auto;
   height: 95%;
   object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider-image.hidden {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
 }
 
 .slider-caption {

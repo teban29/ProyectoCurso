@@ -6,3 +6,8 @@
   box-sizing: border-box;
   font-family: "Figtree", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #e0e0e0 #ffffff;
+}

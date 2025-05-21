@@ -1,0 +1,104 @@
+strong {
+  color: #1e565a;
+}
+
+.contact-section {
+  padding: 3rem 1rem;
+  background-color: #e9f7f8;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1e565a;
+}
+
+.contact-info p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.contact-list li {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.phone-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 1.5rem;
+}
+
+.phone-list li {
+  font-size: 1rem;
+  color: #555;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #25d366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button img {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe58;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form-wrapper {
+  flex: 2;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}

@@ -3,6 +3,8 @@ import "./styles/App.css";
 import { Navbar } from "./components/Navbar.jsx";
 import { Slider } from "./components/Slider.jsx";
 import { Services } from "./components/Services.jsx";
+import { AboutUs } from "./components/AboutUs.jsx";
+import { ContactSection } from "./components/ContactSection.jsx";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <main className="main-content">
         <Slider />
         <Services />
+        <AboutUs />
+        <ContactSection />
       </main>
     </div>
   );

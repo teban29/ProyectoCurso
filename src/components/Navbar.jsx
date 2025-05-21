@@ -37,12 +37,12 @@ export const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" onClick={() => setIsOpen(false)}>
+              <a href="#services" onClick={() => setIsOpen(false)}>
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#" onClick={() => setIsOpen(false)}>
+              <a href="#nosotros" onClick={() => setIsOpen(false)}>
                 Nosotros
               </a>
             </li>

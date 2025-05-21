@@ -1,0 +1,54 @@
+@import url("./Reset.css");
+
+.about-us {
+  padding: 4rem 1rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.about-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-in-out;
+}
+
+.about-us-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-us-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.about-us-text h2 {
+  font-size: 2.5rem;
+  color: #1e565a;
+  margin-bottom: 1rem;
+}
+
+.about-us-text p {
+  font-size: 1.1rem;
+  color: #4d4d4d;
+  margin-bottom: 1rem;
+}
+
+.about-us-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-us-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.062);
+}
