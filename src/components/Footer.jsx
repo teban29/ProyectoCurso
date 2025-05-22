@@ -37,7 +37,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy: 2025 Transportadora TC. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Transportadora TC. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
